@@ -157,3 +157,28 @@ body {
     max-height: 80px;
   }
 }
+
+li {
+  list-style: none;
+}
+
+.green {
+  background-color: green;
+}
+
+.bookDisplayContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.bookContainer {
+  width: calc(25%);
+  height: 300px;
+  margin: 15px;
+  padding: 15px;
+}
+
+img {
+  height: calc(80%)
+}
